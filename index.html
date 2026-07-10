@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>আল-আওন হিসাবখাতা</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="header">
+<h1>আল-আওন হিসাবখাতা</h1>
+<p>দান সংক্রান্ত তথ্য জমা দিন</p>
+</div>
+
+<div class="container">
+<div class="card">
+
+<form>
+
+<label>দানকারীর নাম</label>
+<input type="text" id="name" placeholder="আপনার নাম লিখুন" required>
+
+<label>তারিখ</label>
+<input type="date" id="date" required>
+
+<label>টাকার পরিমাণ</label>
+<input type="number" id="amount" placeholder="৳" required>
+
+<label>কোথায় পাঠিয়েছেন</label>
+<select id="method" required>
+<option value="">নির্বাচন করুন</option>
+<option>বিকাশ</option>
+<option>নগদ</option>
+</select>
+
+<label>দানকারীর অবস্থান</label>
+<select id="location" required>
+<option value="">নির্বাচন করুন</option>
+<option>বাংলাদেশ</option>
+<option>বিদেশ</option>
+</select>
+
+<button type="submit">জমা দিন</button>
+
+</form>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
